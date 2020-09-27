@@ -22,7 +22,7 @@ const Home = () => {
     ]
     return (
         <div>
-            <Slider autoPlay={true} arrow={true} dots={true}>
+            <Slider autoPlay={false} arrow={true} dots={true}>
                 {
                     sliderData.map((item, key) => (
                         <SliderItem
